@@ -1,0 +1,25 @@
+Steps to Dockerize the RESTful Application
+
+Step 1: Download or Clone the RESTful Application from GitHub repo - 
+
+Step 2: Open the application in Visual Studio Code
+
+Step 3: Search for "Docker" extension in Visual Studio Code and Install 'Docker' plugin. Just Docker v.1.24.0 is sufficient.
+
+Step 4: Run the Uvicorn server in command prompt and see the application output
+> Open Command Prompt
+> Go the the 'app' folder where main.py resides in your local folder 
+> pip install -r requirements.txt
+> uvicorn main:app --reload    [It runs the uvicorn server at port 8000]
+> In browser type http://localhost:8000/docs (FastAPI Swagger)
+
+Step 5: Steps to build and run the Docker Image - into a container
+a. Start 'Docker Desktop' 
+b. In the terminal, execute the following lines
+> docker build -t myimage .
+> docker run -d --name fastapicontainer -p 80:80 myimage
+c. Test the Container running on port 80
+http://localhost
+or 
+http://localhost/users/1
+d. Verify the container in 'Docker Desktop' - "fastapicontainer" should be running

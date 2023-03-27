@@ -1,0 +1,19 @@
+{
+    "user": [
+        {
+            "id": 1, 
+            "name": "Shreyas Rao", 
+            "email": "shreyassureshrao@gmail.com",
+            "address": "bangalore",
+            "mobile": 9591782068
+
+        }, 
+        {
+            "id": 2, 
+            "name": "Mamatha Rao", 
+            "email": "mamatha@gmail.com",
+            "address": "bangalore",
+            "mobile": 9538124456
+            }
+        ] 
+}
