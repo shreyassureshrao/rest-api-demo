@@ -1,6 +1,6 @@
 Steps to Dockerize the RESTful Application
 
-Step 1: Download or Clone the RESTful Application from GitHub repo - 
+Step 1: Download or Clone the RESTful Application from GitHub repo - https://github.com/shreyassureshrao/rest-api-demo
 
 Step 2: Open the application in Visual Studio Code
 
