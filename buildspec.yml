@@ -15,5 +15,4 @@ artifacts:
   files:
     - main.py
     - requirements.txt
-    - app/
   name: fastapi-app-artifact
