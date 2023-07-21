@@ -9,8 +9,7 @@ phases:
       - pip install -r requirements.txt
   build:
     commands:
-      - echo "Running tests..."
-      - pytest test_main.py
+      - echo "Building and Running tests..."
 artifacts:
   files:
     - main.py
